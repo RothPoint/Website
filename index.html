@@ -1,108 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Roth Point Partners</title>
-  <meta name="description" content="Roth Point Partners is an investment fund focused on acquiring and operating a strong business oriented toward long term growth.">
-  <link rel="stylesheet" href="style.css">
-  <style>
-    body {font-family: Arial, sans-serif; margin:0; padding:0; background:#fff; color:#111;}
-    a {color:#0f4c81; text-decoration:none;}
-    header {background:#fff; padding:20px 40px; display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid #ddd;}
-    header h1 {margin:0; font-size:24px; color:#0f4c81;}
-    nav ul {list-style:none; margin:0; padding:0; display:flex; gap:20px;}
-    nav ul li {display:inline;}
-    section {padding:60px 40px;}
-    section h2 {font-size:28px; margin-bottom:20px;}
-    section p {font-size:16px; line-height:1.6;}
-    .hero {background: url('images/hero.jpg') center/cover no-repeat; color:white; text-align:center; padding:100px 20px;}
-    .hero h1 {font-size:42px; margin-bottom:20px;}
-    .hero p {font-size:18px; max-width:600px; margin:0 auto;}
-    .team-grid {display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:20px;}
-    .team-member {padding:20px; border:1px solid #ddd; border-radius:10px; text-align:center;}
-    .team-member img {border-radius:50%; width:100px; height:100px; object-fit:cover; margin-bottom:12px;}
-    footer {background:#f7f7f7; padding:20px 40px; text-align:center; font-size:14px; color:#555;}
-    .contact-card {padding:20px; border:1px solid #ddd; border-radius:10px; max-width:600px; margin:0 auto;}
-    .contact-card p {margin:8px 0;}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roth Point Partners</title>
+<meta name="description" content="Roth Point Partners is an investment fund focused on acquiring and operating a strong business oriented toward long term growth.">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <h1>Roth Point Partners</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#criteria">Investment Criteria</a></li>
-        <li><a href="#team">Team</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section class="hero">
-    <h1>Acquire, Operate, and Grow</h1>
-    <p>Roth Point Partners is an investment fund focused on acquiring and operating a strong business oriented toward long term growth.</p>
-  </section>
-
-  <section id="about">
-    <h2>Partnership</h2>
-    <p>We provide the opportunity for an entrepreneur to successfully exit their businesses while preserving their legacy.</p>
-    <p>Our goal is simple: acquire, operate, and grow.</p>
-    <p>Boston, MA | info@RothPoint.com</p>
-  </section>
-
-  <section id="criteria">
-    <h2>Investment Criteria</h2>
-    <p>We focus on strong businesses with sustainable growth potential, operational opportunities, and founders who value continuity.</p>
+<header>
+  <h1>Roth Point Partners</h1>
+  <nav>
     <ul>
-      <li>Business quality with defensible market position</li>
-      <li>Predictable cash flow and margin expansion potential</li>
-      <li>Founder alignment and long-term stewardship</li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#criteria">Investment Criteria</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
-  </section>
+  </nav>
+</header>
 
-  <section id="team">
-    <h2>Team</h2>
-    <div class="team-grid">
-      <!-- Team Member #1 -->
-      <div class="team-member">
-        <img src="images/pierce-schiller.jpg" alt="Pierce Schiller">
-        <h3>Pierce Schiller</h3>
-        <p>Managing Partner</p>
-        <p>Pierce brings a background in engineering, entrepreneurship, and growth investing. Previously co-founded a cleantech startup and TarDisk.</p>
-      </div>
+<section class="hero">
+  <h1>Acquire, Operate, and Grow</h1>
+  <p>Roth Point Partners is an investment fund focused on acquiring and operating a strong business oriented toward long term growth.</p>
+</section>
 
-      <!-- Team Member #2 -->
-      <div class="team-member">
-        <img src="images/confidential.jpg" alt="Confidential Team Member">
-        <h3>Confidential</h3>
-        <p>Partner</p>
-        <p>This role is currently held confidentially. Additional details are available upon request.</p>
-      </div>
+<section id="about">
+  <h2>Partnership</h2>
+  <p>We provide the opportunity for an entrepreneur to successfully exit their businesses while preserving their legacy.</p>
+  <p>Our goal is simple: acquire, operate, and grow.</p>
+  <p>Boston, MA | info@RothPoint.com</p>
+</section>
+
+<section id="criteria">
+  <h2>Investment Criteria</h2>
+  <p>We focus on strong businesses with sustainable growth potential, operational opportunities, and founders who value continuity.</p>
+  <ul>
+    <li>Business quality with defensible market position</li>
+    <li>Predictable cash flow and margin expansion potential</li>
+    <li>Founder alignment and long-term stewardship</li>
+  </ul>
+</section>
+
+<section id="team">
+  <h2>Team</h2>
+  <div class="team-grid">
+    <div class="team-member">
+      <img src="images/pierce-schiller.jpg" alt="Pierce Schiller">
+      <h3>Pierce Schiller</h3>
+      <p>Managing Partner</p>
+      <p>Pierce brings a background in engineering, entrepreneurship, and growth investing. Previously co-founded a cleantech startup and TarDisk.</p>
     </div>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <div class="contact-card">
-      <p>Email: <a href="mailto:info@RothPoint.com">info@RothPoint.com</a></p>
-      <p>Boston, MA</p>
-      <form action="mailto:info@RothPoint.com" method="post" enctype="text/plain">
-        <p><input type="text" name="name" placeholder="Name" required style="width:100%; padding:8px; margin-bottom:8px;"></p>
-        <p><input type="email" name="email" placeholder="Email" required style="width:100%; padding:8px; margin-bottom:8px;"></p>
-        <p><textarea name="message" rows="4" placeholder="Message" style="width:100%; padding:8px; margin-bottom:8px;"></textarea></p>
-        <p><button type="submit" style="padding:10px 20px; background:#0f4c81; color:white; border:none; border-radius:6px;">Send</button></p>
-      </form>
+    <div class="team-member">
+      <img src="images/confidential.jpg" alt="Confidential Team Member">
+      <h3>Confidential</h3>
+      <p>Partner</p>
+      <p>This role is currently held confidentially. Additional details are available upon request.</p>
     </div>
-  </section>
+  </div>
+</section>
 
-  <footer>
-    Roth Point Partners © 2013 - <span id="year"></span> | All Rights Reserved
-  </footer>
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="contact-card">
+    <p>Email: <a href="mailto:info@RothPoint.com">info@RothPoint.com</a></p>
+    <p>Boston, MA</p>
+    <form action="mailto:info@RothPoint.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="message" rows="4" placeholder="Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</section>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+<footer>
+  Roth Point Partners © 2013 - <span id="year"></span> | All Rights Reserved
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
